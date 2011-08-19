@@ -1,1 +1,1 @@
-I like Gears of War
+watched khanacedmy vid
