@@ -1,1 +1,1 @@
-watched khanacedmy vid
+did code academy i did 6 missions
