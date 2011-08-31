@@ -1,0 +1,12 @@
+1. var a = 13
+2. if a+b= 16
+then b = 3
+3. a number = 3 (counter > 15)}
+while (counter > 15)
+print ("**")
+print;
+4. var a = 3
+a+b=9
+b = 6
+a*b=18
+b-a=6
