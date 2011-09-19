@@ -1,22 +1,24 @@
 <!DOCTYPE html>
 <html>
     <head>
-	    <title>Mr. Maxwells Page</title>
-    </head>
+		<title>Mr. Maxwell Page</title>
+	</head>
 	<body>
-	    <p id="hello_paragraph">Hello!</p>
+		<form>
+			<input type="text" id="name" value="type name-> enter" />
+			<input type="button" value="Say Hello" onclick="say_hi()" />
+			<input type="button" value="Say Goodbye" onclick="say_goodbye()" />
+		</form>
+		<p id="salutation">Type your name above and hit enter!"</p>
 		<script type="text/javascript">
-		    document.getElementById("hello_paragraph").innerHTML="Hello from javascript";
-			var list = document.createElement("ul");
-			var item = document.createElement("li");
-			item.innerHTML="Monkeys";
-			var item2 = document.createElement("li");
-			item2.innerHTML="Dogs";
-			list.appendchild(item);
-			list.appendchild(item2);
-			document.body.appendChild(list);
+			 function say_hi(){
+			var name = document.getElementById("name").value;
+			document.getElementById("salutation").innerText="Hello " + name + "!";
+			}
+		     function say_goodbye(){
+			 var name = document.getElementById("name").value;
+			document.getElementById("salutation").innerText="Goodbye " + name + "!";
+		}
 		</script>
-    </body>
+	</body>
 </html>
-	  
-		
