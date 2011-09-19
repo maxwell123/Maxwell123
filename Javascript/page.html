@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    <head>
+	    <title>Mr. Maxwells Page</title>
+    </head>
+	<body>
+	    <p id="hello_paragraph">Hello!</p>
+		<script type="text/javascript">
+		    document.getElementById("hello_paragraph").innerHTML="Hello from javascript";
+			var list = document.createElement("ul");
+			var item = document.createElement("li");
+			item.innerHTML="Monkeys";
+			var item2 = document.createElement("li");
+			item2.innerHTML="Dogs";
+			list.appendchild(item);
+			list.appendchild(item2);
+			document.body.appendChild(list);
+		</script>
+    </body>
+</html>
+	  
+		
